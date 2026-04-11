@@ -6,17 +6,11 @@
         <description>Lab Assistant updates</description>
         <language>en</language>
         <item>
-            <title>Version 0.2 (Test)</title>
-            <sparkle:version>0</sparkle:version>
-            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
-            <pubDate>Fri, 11 Apr 2026 20:30:00 +1000</pubDate>
+            <title>Version 2.0</title>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                <h2>Sparkle Test</h2>
-                <ul>
-                    <li>Test release for update verification</li>
-                </ul>
-            ]]></description>
+            <pubDate>Fri, 11 Apr 2026 20:30:00 +1000</pubDate>
             <enclosure url="https://github.com/BSKapps/labassistant-updates/releases/download/v2.1-test/LabAssistant-2.1-test.zip"
                        sparkle:edSignature="1y+QjWfnkxtDYQMPT8CemewFmE4QdDvLYY+L0aHljGdw8WGUh7tkuQTEIb35ZCkZy5JxGXkG5xS07TMVYmrqDQ=="
                        length="6498980"
