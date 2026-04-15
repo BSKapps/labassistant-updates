@@ -7,13 +7,13 @@
         <language>en</language>
         <item>
             <title>Version 2.0</title>
-            <sparkle:version>1</sparkle:version>
+            <sparkle:version>2</sparkle:version>
             <sparkle:shortVersionString>2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <pubDate>Wed, 15 Apr 2026 18:00:00 +1000</pubDate>
+            <pubDate>Wed, 15 Apr 2026 19:05:00 +1000</pubDate>
             <enclosure url="https://github.com/BSKapps/labassistant-updates/releases/download/v2.0/Lab_Assistant_2.0.zip"
-                       sparkle:edSignature="D8LjFZ/Oj96ect2Mz3e7f8udvMwObdCkH7nF53UZGU02i7jgMMT+O/7jgu/lxjkvPrQeTn5jsQzKVPWhrM7KDw=="
-                       length="7209095"
+                       sparkle:edSignature="xYVJWB6i9HuON4vFqnycDifYHJwvRaOUlYm+SxZWxzVvnHu8uTVAnq5tzn2HsS53OaiOjGJU4HQeEj7XW9EGDA=="
+                       length="7209748"
                        type="application/octet-stream" />
         </item>
     </channel>
