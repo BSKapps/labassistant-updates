@@ -12,7 +12,7 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <pubDate>Thu, 07 May 2026 10:00:00 +0000</pubDate>
             <description><![CDATA[<p>Bug fixes and performance improvements.</p>]]></description>
-            <enclosure url="https://github.com/BSKapps/labassistant-updates/releases/download/v2.1-build4/Lab%20Assistant%202.1.zip"
+            <enclosure url="https://github.com/BSKapps/labassistant-updates/releases/download/v2.1-build4/Lab.Assistant.2.1.zip"
                        sparkle:edSignature="pddcda3tugT0sCZ84ItxPJpjSrs4u0rObZCrFJ9h9XhNkENw/rPh63mSG2XF7rsMm4+Hkobw6ozkXg3LpOQIBA=="
                        length="33562283"
                        type="application/octet-stream" />
