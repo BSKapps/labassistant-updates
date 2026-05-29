@@ -6,6 +6,18 @@
         <description>Lab Assistant updates</description>
         <language>en</language>
         <item>
+            <title>Version 2.2</title>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 29 May 2026 23:55:00 +1000</pubDate>
+            <description><![CDATA[<ul><li>Elapsed time added.</li><li>Lab Assistant now auto switches QLab edit/show mode.</li><li>Fixes: Colour swatch dragging, Mint processing normaliser now scans post EQ/gain.</li></ul>]]></description>
+            <enclosure url="https://github.com/BSKapps/labassistant-updates/releases/download/v2.2-build5/Lab.Assistant.2.2.zip"
+                       sparkle:edSignature="Csstv67CZT98vsKY/qPdl/UoICzMoeqseRGqgFoQE3m+1VRbZ6ZLVRD5kzJHUdto2QHqIunJjqRCMsV28Qi4Aw=="
+                       length="33610557"
+                       type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 2.1</title>
             <sparkle:version>4</sparkle:version>
             <sparkle:shortVersionString>2.1</sparkle:shortVersionString>
