@@ -6,6 +6,30 @@
         <description>Lab Assistant updates</description>
         <language>en</language>
         <item>
+            <title>2.3</title>
+            <pubDate>Mon, 29 Jun 2026 22:56:43 +1000</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li style="margin-bottom:6px">User presets: save and switch named setups, with a Defaults reset</li>
+<li style="margin-bottom:6px">Multi-output routing: send cues to any output, auto-sort by keyword (Music / VOG / FX), up to 64 outputs</li>
+<li style="margin-bottom:6px">Mint now processes video too: keep, convert (MP4 / MOV), or extract audio, with trim and fade previews</li>
+<li style="margin-bottom:6px">Run All is dramatically faster - around 4x on large shows - from parallel per-cue analysis and batched cue fetching</li>
+<li style="margin-bottom:6px">Select All in QLab is now mirrored in Lab Assistant</li>
+<li style="margin-bottom:6px">In-app Guide, plus Email Support and Visit Website in the Help menu</li>
+<li style="margin-bottom:6px">Musical Intelligence: separate BPM / Key detect toggles and a clearer reorder choice</li>
+<li style="margin-bottom:6px">Notes: tidier lines, with optional category and BPM / Key tags</li>
+<li style="margin-bottom:6px">Colour-coding for VOG / FX and control cues; group colours now apply reliably</li>
+<li style="margin-bottom:6px">Group sub-numbering now takes a prefix and start number, like sequential numbering</li>
+<li style="margin-bottom:6px">Stereo-to-mono summing corrected to -6 dB</li>
+<li style="margin-bottom:6px">Plus many smaller fixes (routing, Mint, numbering, licensing)</li>
+</ul>
+            ]]></description>
+            <enclosure url="https://github.com/BSKapps/labassistant-updates/releases/download/v2.3/Lab.Assistant.2.3.zip" length="47080021" type="application/octet-stream" sparkle:edSignature="rh3S9CluRoyTUAtVp1xcrV1VTaIPbC5n9pKtzfrg+GLyVpplj0FUC0t3pMY1C07TFkCkUHKfNs7Uh0DpNxnUAQ=="/>
+        </item>
+        <item>
             <title>Version 2.2</title>
             <sparkle:version>5</sparkle:version>
             <sparkle:shortVersionString>2.2</sparkle:shortVersionString>
