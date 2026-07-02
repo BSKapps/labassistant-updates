@@ -6,6 +6,29 @@
         <description>Lab Assistant updates</description>
         <language>en</language>
         <item>
+            <title>2.3.1</title>
+            <pubDate>Thu, 02 Jul 2026 11:42:07 +1000</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>2.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li style="margin-bottom:6px">Fix updating from 2.2 no longer hides a module that was hidden once in 2.2</li>
+<li style="margin-bottom:6px">Fix cancelling a run now returns QLab to Show mode when it started there</li>
+<li style="margin-bottom:6px">Fix the cue list no longer sticks on a stale selection after a brief QLab hiccup</li>
+<li style="margin-bottom:6px">Fix Mint peak normalise now reports an error when measurement fails instead of silently writing the file unprocessed</li>
+<li style="margin-bottom:6px">Fix stopping Mint mid-file no longer leaves a partial output file next to your media</li>
+<li style="margin-bottom:6px">Fix closing the Mint window during a preview render no longer plays audio afterwards</li>
+<li style="margin-bottom:6px">Fix Top and Tail now reports a missing media file instead of "no silence"</li>
+<li style="margin-bottom:6px">Fix the preset edited marker no longer sticks after unticking a clear-notes box</li>
+<li style="margin-bottom:6px">Fix cue numbers containing commas no longer confuse renumbering</li>
+<li style="margin-bottom:6px">Renumbering and reordering very large selections now get enough time to finish</li>
+<li style="margin-bottom:6px">Quitting mid-run now stops background work cleanly</li>
+</ul>
+            ]]></description>
+            <enclosure url="https://github.com/BSKapps/labassistant-updates/releases/download/v2.3.1/Lab.Assistant.2.3.1.zip" length="47086108" type="application/octet-stream" sparkle:edSignature="zYEkyXAWHcIoYUCjKxjj1mlAoKtsN09VeEa/ZkuU4CO1hn3pGekU44Yza30Buh/n1DPSBC+ufsjDWjktQ9XNCg=="/>
+        </item>
+        <item>
             <title>2.3</title>
             <pubDate>Mon, 29 Jun 2026 22:56:43 +1000</pubDate>
             <sparkle:version>6</sparkle:version>
