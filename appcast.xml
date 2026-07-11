@@ -6,6 +6,29 @@
         <description>Lab Assistant updates</description>
         <language>en</language>
         <item>
+            <title>2.3.2</title>
+            <pubDate>Sat, 11 Jul 2026 16:45:01 +1000</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>2.3.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li style="margin-bottom:6px">Fixed: Mint could put original files at risk: a blank file name suffix in a copy mode, two files with the same name, or an unreadable file could delete or overwrite media - all now blocked with a clear error before processing</li>
+<li style="margin-bottom:6px">Fixed: renumbering is now fail-safe: after a failed workspace scan it stops instead of assigning numbers already in use, and a failed renumber restores the original cue numbers instead of leaving them blank</li>
+<li style="margin-bottom:6px">Runs now report when a cue number, note or category tag could not be written, and skip group numbering or colouring safely when the selection can't be read, instead of showing success</li>
+<li style="margin-bottom:6px">Group sub-numbering uses the selection from the start of the run and avoids collisions on child numbers</li>
+<li style="margin-bottom:6px">Renumber, Add Missing and Clear All now cover the whole selection like sub-numbering does - groups and control cues included - so clearing removes every number and renumbering counts from the top</li>
+<li style="margin-bottom:6px">Fixed: cancelling or quitting a run, including from Mint, could leave QLab in Edit mode, or flip the mode mid-way through the next run; quitting mid-run now shows a small Finishing up indicator while it tidies up</li>
+<li style="margin-bottom:6px">Reordering now warns when it only partially completed instead of claiming nothing changed</li>
+<li style="margin-bottom:6px">Fixed: a slow selection fetch could leave the app stuck showing an old selection, and the loaded cue list now refreshes its cue numbers after each run</li>
+<li style="margin-bottom:6px">Fixed: Levels could apply a wrong level when measurement was interrupted - now reports an error</li>
+<li style="margin-bottom:6px">Large workspaces get more time on Select All, routing, colours and numbering scans, and a report that could not be saved now says so</li>
+<li style="margin-bottom:6px">Safer controls during runs (Results Clear, cue filter, module Run buttons), Musical reorder shows its warning in run confirmations, and deleting the active preset switches to Defaults</li>
+</ul>
+            ]]></description>
+            <enclosure url="https://github.com/BSKapps/labassistant-updates/releases/download/v2.3.2/Lab.Assistant.2.3.2.zip" length="47177584" type="application/octet-stream" sparkle:edSignature="yYWStNlHggAqZ03H9Ar6frTMDmyeFJPWc/JAbd2kZBC7VYqB7NO04wHyOkMKogBhnHx28vX+JsBiBdoQfzKgBg=="/>
+        </item>
+        <item>
             <title>2.3.1</title>
             <pubDate>Thu, 02 Jul 2026 11:42:07 +1000</pubDate>
             <sparkle:version>7</sparkle:version>
