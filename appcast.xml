@@ -6,6 +6,26 @@
         <description>Lab Assistant updates</description>
         <language>en</language>
         <item>
+            <title>2.4</title>
+            <pubDate>Fri, 21 Aug 2026 13:14:09 +1000</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>2.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li style="margin-bottom:6px">Musical Intelligence reworked: reorder choices come first, and a box the reorder needs greys out instead of ignoring clicks</li>
+<li style="margin-bottom:6px">BPM now reports the detected tempo, with a half-time value alongside for fast tracks</li>
+<li style="margin-bottom:6px">Every numbering mode shows a progress bar with a running count, instead of just a spinner</li>
+<li style="margin-bottom:6px">Cancel greys out while numbering is writing cue numbers</li>
+<li style="margin-bottom:6px">Max Outputs now lives in Routing &gt; Multi-Output</li>
+<li style="margin-bottom:6px">Warnings and notices no longer shift the page when they appear</li>
+<li style="margin-bottom:6px">Disabled controls now say why, right beside them</li>
+<li style="margin-bottom:6px">Shorter, clearer notes throughout, with detail moved to hover tips</li>
+</ul>
+            ]]></description>
+            <enclosure url="https://github.com/BSKapps/labassistant-updates/releases/download/v2.4/Lab.Assistant.2.4.zip" length="47209348" type="application/octet-stream" sparkle:edSignature="NU1g0fCSO04hppdfiQyeYyeoA5YDeX7c7geq3VI5s1gWKQyeHJM9s1B+S4NvnIhM7GdwHjt1/Nj4gEiyl/p2CQ=="/>
+        </item>
+        <item>
             <title>2.3.2</title>
             <pubDate>Sat, 11 Jul 2026 16:45:01 +1000</pubDate>
             <sparkle:version>8</sparkle:version>
