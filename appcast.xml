@@ -6,6 +6,28 @@
         <description>Lab Assistant updates</description>
         <language>en</language>
         <item>
+            <title>2.5</title>
+            <pubDate>Sat, 29 Aug 2026 20:15:12 +1000</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>2.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li style="margin-bottom:6px">Musical Intelligence can put cues back in their previous order after a BPM/Camelot reorder</li>
+<li style="margin-bottom:6px">BPM detection has fewer undetected tracks</li>
+<li style="margin-bottom:6px">Mint no longer fails on some files when Trim is on, and a failed file now says what went wrong</li>
+<li style="margin-bottom:6px">Results only show BPM or Key when that detection is switched on</li>
+<li style="margin-bottom:6px">Any cue QLab refused during a bulk apply now shows an error instead of a green tick</li>
+<li style="margin-bottom:6px">Mono cues routed to an output pair now play 3 dB lower, so they match stereo cues at the same loudness target</li>
+<li style="margin-bottom:6px">Renumbering is much faster on big cue lists, and clears old numbers in cue order instead of jumping around</li>
+<li style="margin-bottom:6px">Colours, Fade &amp; Stop, Continue Mode and Top &amp; Tail reset now apply in one pass, with far fewer calls to QLab</li>
+<li style="margin-bottom:6px">Module runs start faster: cue details load in one go instead of one cue at a time</li>
+<li style="margin-bottom:6px">Cancelling a run now marks unfinished cues as Stopped, instead of showing errors for work that was never attempted</li>
+</ul>
+            ]]></description>
+            <enclosure url="https://github.com/BSKapps/labassistant-updates/releases/download/v2.5/Lab.Assistant.2.5.zip" length="47354555" type="application/octet-stream" sparkle:edSignature="wrtPDpGsuwop0+lKUM094sOt96ZGXQa2nbezQWGn+8Y80H6BwETEWI+0j9UUPf0bYmIC59o5dCjMZzPrRzLkCQ=="/>
+        </item>
+        <item>
             <title>2.4</title>
             <pubDate>Fri, 21 Aug 2026 13:14:09 +1000</pubDate>
             <sparkle:version>9</sparkle:version>
