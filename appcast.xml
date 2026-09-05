@@ -6,6 +6,27 @@
         <description>Lab Assistant updates</description>
         <language>en</language>
         <item>
+            <title>2.6</title>
+            <pubDate>Sat, 05 Sep 2026 21:04:09 +1000</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>2.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li style="margin-bottom:6px">Mint can trim each file using its cue's own QLab start and end times</li>
+<li style="margin-bottom:6px">Mint can collect a batch's new cues into one group, named after the applied effects</li>
+<li style="margin-bottom:6px">Mint can write a note listing the applied effects on each processed cue</li>
+<li style="margin-bottom:6px">Overwrite checks the processed file is valid before replacing the original, and the old file goes to the Trash</li>
+<li style="margin-bottom:6px">Files with embedded cover art no longer fail to process</li>
+<li style="margin-bottom:6px">Errors and warnings stand out in the Mint results, and cues with a missing file are flagged before processing</li>
+<li style="margin-bottom:6px">Several cues playing the same file are handled together, and Overwrite warns instead of processing it twice</li>
+<li style="margin-bottom:6px">Stopping a Mint batch mid-run keeps finished files, their cues and the progress view</li>
+<li style="margin-bottom:6px">Colour Code Cues gains a Keyword colours switch for the VOG and FX name colours</li>
+</ul>
+            ]]></description>
+            <enclosure url="https://github.com/BSKapps/labassistant-updates/releases/download/v2.6/Lab.Assistant.2.6.zip" length="47510465" type="application/octet-stream" sparkle:edSignature="n0CKVes++vWWMzwz12yX1UljW9xvS1QSnHJEKnL4zcLd+B/pqqzrQk38RnJIbcTRRFC7fll0RznoqH2V0Zs4Bg=="/>
+        </item>
+        <item>
             <title>2.5</title>
             <pubDate>Sat, 29 Aug 2026 20:15:12 +1000</pubDate>
             <sparkle:version>10</sparkle:version>
