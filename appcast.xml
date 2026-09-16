@@ -6,6 +6,34 @@
         <description>Lab Assistant updates</description>
         <language>en</language>
         <item>
+            <title>2.7</title>
+            <pubDate>Wed, 16 Sep 2026 22:58:18 +1000</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>2.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p style="font-weight:600;margin:12px 0 6px">What's New</p>
+<ul>
+<li style="margin-bottom:6px">New Group Cues module puts the selected cues into a QLab group in any of QLab's five modes, with loop, shuffle and crossfade for playlists (Playlist needs QLab 5). The group takes the run's colour and continue mode</li>
+<li style="margin-bottom:6px">Sidebar panels redrawn with clearer edges</li>
+<li style="margin-bottom:6px">New Media Folder button next to the workspace name shows the selected cue's file in Finder, or the workspace file</li>
+<li style="margin-bottom:6px">A short sound plays when a run or a Mint batch finishes</li>
+</ul>
+<p style="font-weight:600;margin:12px 0 6px">Fixes</p>
+<ul>
+<li style="margin-bottom:6px">Mint's Dual Mono render now plays 3 dB lower, matching mono cues routed to a pair. Dual Mono files from earlier versions are 3 dB hotter than new ones</li>
+<li style="margin-bottom:6px">Musical Intelligence can now reorder the cues inside a looping playlist</li>
+<li style="margin-bottom:6px">Musical Intelligence skips VOG cues</li>
+<li style="margin-bottom:6px">QLab 4 is now detected correctly</li>
+</ul>
+<p style="font-weight:600;margin:12px 0 6px">Known Issues</p>
+<ul>
+<li style="margin-bottom:6px">With more than one workspace open, Lab Assistant works on the front one. Keep one workspace open, or make sure the one you want is in front</li>
+</ul>
+            ]]></description>
+            <enclosure url="https://github.com/BSKapps/labassistant-updates/releases/download/v2.7/Lab.Assistant.2.7.zip" length="47739884" type="application/octet-stream" sparkle:edSignature="Mef0QSmeTTnWZ4GXitwtNzngQ/8od1lGdBRhaxHm/2DjqIXQhCqq7ZjgfEFc1IR4PpMYMaXFoQANtUONBch2Cw=="/>
+        </item>
+        <item>
             <title>2.6</title>
             <pubDate>Sat, 05 Sep 2026 21:04:09 +1000</pubDate>
             <sparkle:version>11</sparkle:version>
