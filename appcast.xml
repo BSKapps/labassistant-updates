@@ -6,6 +6,45 @@
         <description>Lab Assistant updates</description>
         <language>en</language>
         <item>
+            <title>2.8</title>
+            <pubDate>Tue, 06 Oct 2026 19:51:38 +1100</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>2.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p style="font-weight:600;margin:12px 0 6px">What's New</p>
+<ul>
+<li style="margin-bottom:6px">New Keyword Categories module keeps the keyword categories that Routing, Colour Code Cues, Group Cues, Notes and Musical Intelligence use in one place, and shows which one each selected cue lands in</li>
+<li style="margin-bottom:6px">Add your own keyword categories, up to five in all, each with its own output and colour. Untick one to switch it off, or switch them all off in the sidebar</li>
+<li style="margin-bottom:6px">Group Cues can sort a mixed selection into a group for each keyword category, or group just one</li>
+<li style="margin-bottom:6px">Group Cues takes selected Fade, Stop and other cues into a Start first child and enter group, and groups the loose cues when some of the selection is already in groups</li>
+<li style="margin-bottom:6px">Resets and clears are now their own buttons on each page, with a Confirm Before Resetting option in Settings</li>
+</ul>
+<p style="font-weight:600;margin:12px 0 6px">Fixes</p>
+<ul>
+<li style="margin-bottom:6px">Quitting QLab while Lab Assistant is open no longer reopens it</li>
+<li style="margin-bottom:6px">Files with accented letters or symbols in their tags now measure correctly in Levels, Top &amp; Tail and Mint</li>
+<li style="margin-bottom:6px">Mint's LUFS normalise keeps each file's sample rate and a song's quiet and loud sections, limiting only peaks that would clip. Mono output lands on the target in every format</li>
+<li style="margin-bottom:6px">Mint's Replace renames a cue that was named after its file, and running Mint again on that cue works from its current file</li>
+<li style="margin-bottom:6px">Stopping a Mint run, or a file that fails, no longer deletes an earlier Mint file that a cue plays</li>
+<li style="margin-bottom:6px">Mint keeps AIFF tags, FLAC bit depth and ALAC files lossless. With .aac files, Overwrite now stops and asks for a copy mode instead of breaking the file</li>
+<li style="margin-bottom:6px">When the chosen preview device is unplugged, Mint's preview no longer plays through another output</li>
+<li style="margin-bottom:6px">When QLab refuses a trim, fade, continue mode or colour change during Run All, the cue now shows an error instead of a green tick. Results warn if QLab is left in Edit mode</li>
+<li style="margin-bottom:6px">On Macs that use a decimal comma, Top &amp; Tail no longer overwrites hand-set start and end points. Reset Start &amp; End Points now resets the end point too</li>
+<li style="margin-bottom:6px">Colour Code: None on a cue type now clears the cue's colour, and the new Keep cue's colour leaves it as it is</li>
+<li style="margin-bottom:6px">On long playlists, Reorder by Key no longer freezes Lab Assistant. Reordering leaves cues you didn't select where they are, and Restore Previous Order still works after running the reorder again</li>
+<li style="margin-bottom:6px">Your own note lines such as "Routing: FOH only" are no longer removed when Lab Assistant writes or clears its own notes</li>
+<li style="margin-bottom:6px">When run again on a group, Sub-Numbers no longer shifts numbers</li>
+<li style="margin-bottom:6px">The sidebar explains when macOS has blocked Lab Assistant from controlling QLab</li>
+</ul>
+<p style="font-weight:600;margin:12px 0 6px">Known Issues</p>
+<ul>
+<li style="margin-bottom:6px">With more than one workspace open, Lab Assistant works on the front one. Keep one workspace open, or make sure the one you want is in front</li>
+</ul>
+            ]]></description>
+            <enclosure url="https://github.com/BSKapps/labassistant-updates/releases/download/v2.8/Lab.Assistant.2.8.zip" length="48021372" type="application/octet-stream" sparkle:edSignature="DGtyDMZIlUbTSJJKYVCJ0hP/zAcyZntZns1eQmEYa6f5N0VQN8Ng/uZtOv8pKRNQtIZChTkdwc+KLL+QEN8BDQ=="/>
+        </item>
+        <item>
             <title>2.7</title>
             <pubDate>Wed, 16 Sep 2026 22:58:18 +1000</pubDate>
             <sparkle:version>12</sparkle:version>
